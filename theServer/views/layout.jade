@@ -1,0 +1,58 @@
+doctype html
+
+html
+
+  head
+
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title= title
+
+    link(rel='shortcut icon' href='data:image/x-icon;,' type='image/x-icon') 
+
+    link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/bootstrap/css/bootstrap-select.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    block links
+
+    script(src="/javascripts/jQuery.min.v2.2.4.js" type="text/javascript")
+    script(src="/javascripts/jquery.validate.min.js" type="text/javascript")
+    block headScripts
+
+
+  body
+
+   .navbar.navbar-default.navbar-fixed-top
+
+      .container
+
+        .navbar-header
+          button(class="btn clrFavForm navbar-brand", id="navbarBrandBtn") ThisGreatApp!
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-main')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+            
+        #navbar-main.navbar-collapse.collapse
+          ul.nav.navbar-nav
+            li 
+              a(href='/about/') About
+            li 
+              a(href='/contact/') Contact
+            li 
+              a(href='/team/') Team
+
+
+    .container
+      block content
+
+      footer
+        .row
+          .col-xs-12
+            small &copy; Alex Smith 2016
+
+
+
+   script(src="/bootstrap/js/bootstrap.min.js" type="text/javascript")
+   script(src="/bootstrap/js/bootstrap-select.js" type="text/javascript")
+   script(src='/javascripts/formValidation.js', type='text/javascript')
+   block bodyScripts

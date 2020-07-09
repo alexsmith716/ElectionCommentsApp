@@ -1,0 +1,85 @@
+
+.navbar-default .navbar-brand  {
+  background: #f8f8f8;
+  outline: 0 !important;
+  border: none;
+  box-shadow: none;
+}
+
+/*
+input:focus {
+    background-color: yellow;
+}
+
+select:focus {
+    background-color: yellow;
+}
+
+*::-webkit-input-placeholder {
+    color: red;
+}
+*:-moz-placeholder {
+    color: red;
+}
+*::-moz-placeholder {
+    color: red;
+}
+*:-ms-input-placeholder {
+    color: red;
+}
+
+.placeholderXXX {
+  color: red;
+}
+
+select {
+    color:#00900;
+}
+
+select option:first-child{color: red; display: none;}
+select option{color: #009900;} 
+*/
+
+.glyphgold {
+    color: #ffbf00;
+}
+
+.reviewDate {
+	color: #cccccc;
+}
+
+.panel-body.review-container {
+	padding-top: 0;
+}
+
+.review-header {
+	margin-bottom: 1px;
+}
+
+.reviewer {
+	margin: 0 5px;
+}
+
+.bs-example{
+	margin: 20px;
+}
+
+.select:required:invalid {
+  color: gray;
+}
+.option[value=""][disabled] {
+  display: none;
+}
+.option {
+  color: black;
+}
+
+
+.adjustBtns {
+    height:28px;
+    margin-top:-3px;
+}
+
+
+@import "reset.css";
+@import "core.css";
